@@ -5,11 +5,11 @@ int shellby_cd(char **args, char __attribute__((__unused__)) **front);
 int shellby_help(char **args, char __attribute__((__unused__)) **front);
 
 /**
- * get_builtin - Matches a command with a corresponding
+ * get_builtin - Match a command with a corresponding
  *               shellby builtin function.
- * @command: The command to match.
+ * @command: This is the command to match.
  *
- * Return: A function pointer to the corresponding builtin.
+ * Return: always return a function pointer to the corresponding builtin.
  */
 int (*get_builtin(char *command))(char **args, char **front)
 {

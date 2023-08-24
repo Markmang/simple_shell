@@ -4,8 +4,8 @@ char *error_126(char **args);
 char *error_127(char **args);
 
 /**
- * error_126 - Creates an error message for permission denied failures.
- * @args: An array of arguments passed to the command.
+ * error_126 - This will Create an error message for permission denied failures.
+ * @args: This is an array of arguments passed to the command.
  *
  * Return: The error string.
  */

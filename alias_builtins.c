@@ -5,10 +5,10 @@ void set_alias(char *var_name, char *value);
 void print_alias(alias_t *alias);
 
 /**
- * shellby_alias - Builtin command that either prints all aliases, specific
+ * shellby_alias - Builtin command can either print all aliases, specific
  * aliases, or sets an alias.
- * @args: An array of arguments.
- * @front: A double pointer to the beginning of args.
+ * @args: Is an array of arguments.
+ * @front: This is a double pointer to the beginning of args.
  *
  * Return: If an error occurs - -1.
  *         Otherwise - 0.

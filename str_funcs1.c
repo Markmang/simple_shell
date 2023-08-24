@@ -6,8 +6,8 @@ char *_strcat(char *dest, const char *src);
 char *_strncat(char *dest, const char *src, size_t n);
 
 /**
- * _strlen - Returns the length of a string.
- * @s: A pointer to the characters string.
+ * _strlen - Will return the length of a string.
+ * @s: This is a pointer to the characters string.
  *
  * Return: The length of the character string.
  */

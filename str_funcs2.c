@@ -6,11 +6,11 @@ int _strcmp(char *s1, char *s2);
 int _strncmp(const char *s1, const char *s2, size_t n);
 
 /**
- * _strchr - Locates a character in a string.
- * @s: The string to be searched.
- * @c: The character to be located.
+ * _strchr - This will locate a character in a string.
+ * @s: This is the string to be searched.
+ * @c: This is the character to be located.
  *
- * Return: If c is found - a pointer to the first occurence.
+ * Return: If c is found - print a pointer to the first occurence.
  *         If c is not found - NULL.
  */
 char *_strchr(char *s, char c)

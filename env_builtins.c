@@ -5,14 +5,14 @@ int shellby_setenv(char **args, char __attribute__((__unused__)) **front);
 int shellby_unsetenv(char **args, char __attribute__((__unused__)) **front);
 
 /**
- * shellby_env - Prints the current environment.
- * @args: An array of arguments passed to the shell.
- * @front: A double pointer to the beginning of args.
+ * shellby_env - This will print the current environment.
+ * @args: This is an array of arguments passed to the shell.
+ * @front: This is a double pointer to the beginning of args.
  *
  * Return: If an error occurs - -1.
  *	   Otherwise - 0.
  *
- * Description: Prints one variable per line in the
+ * Description: This will Print one variable per line in the
  *              format 'variable'='value'.
  */
 int shellby_env(char **args, char __attribute__((__unused__)) **front)
